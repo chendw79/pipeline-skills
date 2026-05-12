@@ -69,3 +69,18 @@ ChenDavid — 工业仿真 + AI Agent 实践者
 ## License
 
 MIT
+
+## 📊 Pipeline Data Processing Skill
+
+专业管道瞬态数据处理与可视化技能包，现已安装在 `skills/pipeline-data-processing.skill/`。
+
+**能力：** KPI数据面板 / 沿程分布 / 时程曲线 / 时空热力图 / CSV导出
+
+```bash
+# 快速测试 KPI 面板
+cd skills && python -c "
+import sys; sys.path.append('..')
+from pipeline_data_processing import PipelineDataPanel
+# kpis = PipelineDataPanel.compute_kpis(result)
+"
+```
